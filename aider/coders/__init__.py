@@ -12,6 +12,9 @@ from .patch_coder import PatchCoder
 from .udiff_coder import UnifiedDiffCoder
 from .udiff_simple import UnifiedDiffSimpleCoder
 from .wholefile_coder import WholeFileCoder
+from .claude_code_coder import ClaudeCodeCoder
+from .codex_coder import CodexCoder
+
 
 # from .single_wholefile_func_coder import SingleWholeFileFunctionCoder
 
@@ -31,4 +34,6 @@ __all__ = [
     EditorWholeFileCoder,
     EditorDiffFencedCoder,
     ContextCoder,
+    ClaudeCodeCoder,
+    CodexCoder
 ]
